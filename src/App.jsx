@@ -5,7 +5,7 @@ import Navigation from "./components/Navigation/Navigation";
 
 // Lazy loading components
 const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
-const MoviePage = React.lazy(() => import("./pages/MoviePage/MoviePage"));
+const MoviesPage = React.lazy(() => import("./pages/MoviesPage/MoviesPage"));
 const MovieDetailsPage = React.lazy(() =>
   import("./pages/MovieDetailsPage/MovieDetailsPage")
 );
